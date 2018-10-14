@@ -12,7 +12,7 @@ global k4
 k3=sqrt(f1_jue);
 k4=sqrt(f2_jue);
 zui_length=20;
- options=odeset('events',@events_weifen);
+options=odeset('events',@events_weifen);
 [s,theta,TE,YE,IE]=ode45(@mupli,[0 zui_length],[beta  yijiedao ],options)%%%%theta=0 s=1.58
 %[s,theta]=ode45(@mupli,[0 zui_length],[beta  0 ])
 plot(s,theta(:,1))

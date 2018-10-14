@@ -9,7 +9,7 @@ f4=f1*sin(alpha/2)-f2*cos(alpha/2);
 %plot(alpha,f3,'-',alpha,f4,'x')%1
 
 
-beta=0.49
+beta=0.49;
 
 k3=sqrt(f3/ei);
 k4=sqrt(f4/ei);

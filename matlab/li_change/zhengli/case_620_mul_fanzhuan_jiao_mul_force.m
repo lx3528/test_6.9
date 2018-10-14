@@ -73,6 +73,6 @@ for j=1:size(inp,2)
     final_disp(:,2)=((k^2-1)*y_zhuanzhuan+2*k*x_zhuanzhuan-2*k*xp+2*yp)/(k^2+1);
     final_disp(:,1)=x_zhuanzhuan-k*(final_disp(:,2)-y_zhuanzhuan)
     plot(final_disp(:,1),final_disp(:,2))   
-    huchang
+    %huchang
 end
 end

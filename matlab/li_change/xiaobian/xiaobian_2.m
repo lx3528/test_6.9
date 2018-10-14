@@ -26,4 +26,4 @@ ypp=zhili_displace(:,2).*sin(moduan-beta)+zhili_displace(:,3).*cos(moduan-beta);
 %plot(zhili_displace(:,2),zhili_displace(:,3))  
 hold on;
 plot(xpp,ypp)
-save D:\c\matlab\bishe\huchang1\jifen\xiaobian_pi2.mat xpp ypp index2
+save E:\git\matlab\li_change\xiaobian\xiaobian_pi2.mat xpp ypp index2

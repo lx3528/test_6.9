@@ -1,6 +1,5 @@
 function [s_final,x_length,y_length] = erjie_weifenfangcheng_func( f1_jue,f2_jue,beta,zui_length,disp )
 %函数下不要写东西
-
 global k3
 global k4
 k3=sqrt(f1_jue);
